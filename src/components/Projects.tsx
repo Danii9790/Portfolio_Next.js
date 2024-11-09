@@ -44,8 +44,6 @@ const data = [
 const Projects = () => {
   return (
     <div id="projects" className="container pt-40">
-    <h2 className='text-4xl md:text-5xl' data-aos="zoom-in-up" >My Projects</h2>
-
       <Heading title='My Projects'/>
       <div className="grid gap-10 xl:gap-0 xl:gap-y-10 md:grid-cols-2 lg:grid-cols-3 place-items-center " data-aos="zoom-in-up">
         {data.map((el) => (
